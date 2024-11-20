@@ -13,4 +13,4 @@ Hệ thống Nhà thông minh sử dụng công nghệ IoT được thiết kế
 * Module cảm biến khí dễ cháy CO MQ9
 
 # Sơ đồ khối:
-![IOT_diagram]([https://github.com/user-attachments/assets/69b20eb7-42d4-4933-879e-3cdd33f662f3](https://github.com/linhlinhto/IoT_Automatic_Car_Park/blob/main/images/IOT_diagram.png))
+![IOT_diagram](https://github.com/linhlinhto/IoT_Automatic_Car_Park/blob/main/images/IOT_diagram.png)
