@@ -7,10 +7,12 @@ Hệ thống phòng thông minh sử dụng công nghệ IoT được thiết k�
 # Linh kiện sử dụng:
 
 * ESP32 Doitdevkit v1 : gửi , nhận và xử lý tín hiệu.
-* Đèn Led
-* Động cơ Servo SG90
+* Đèn Led mô phỏng đèn nhà
+* Động cơ Servo SG90 mô phỏng mở cửa
 * Cảm biến độ ẩm nhiệt độ DHT11
-* Module cảm biến khí dễ cháy CO MQ9
 
 # Sơ đồ khối:
-![IOT_diagram](https://github.com/linhlinhto/IoT_Automatic_Car_Park/blob/main/images/IOT_diagram.png)
+![IOT_diagram](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Smart_room_diagram.png)
+
+# Dash board:
+![Dash_board](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Dash_board.png)
