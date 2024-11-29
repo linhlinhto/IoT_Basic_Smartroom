@@ -1,8 +1,8 @@
-# Hệ Thống IoT Nhà thông minh đơn giản
+# Hệ Thống IoT phòng thông minh đơn giản
 
 # Chức năng:
 
-Hệ thống Nhà thông minh sử dụng công nghệ IoT được thiết kế nhằm hỗ trợ người dùng quản lý ngôi nhà của mình. Hệ thống điều khiển đèn ở các phòng, sử dụng còi báo có thể bật tắt báo hiệu, sử dụng cảm biến độ ẩm nhiệt độ và cảm biến khí gas để đo các thông số nguy hiểm và cảnh báo cho người dùng, sử dụng động cơ servo để tự động mở cửa.
+Hệ thống phòng thông minh sử dụng công nghệ IoT được thiết kế nhằm hỗ trợ người dùng quản lý ngôi nhà của mình. Hệ thống điều khiển đèn phòng, sử dụng cảm biến độ ẩm nhiệt độ để đo các thông số và gửi thông tin cho người dùng, sử dụng động cơ servo để tự động mở cửa.
 
 # Linh kiện sử dụng:
 
