@@ -20,7 +20,8 @@ Hệ thống phòng thông minh sử dụng công nghệ IoT được thiết k�
   *sử dụng Dash_board của Node Red để hiển thị giao diện điều khiển.
 ![Dash_board](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Dash_board.png)
 
-![Demo]([https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Dash_board.png](https://drive.google.com/file/d/1JpJMOdWNJMcMNcv-53IZ65kI86rhAwy5/view?usp=sharing))
+# Demo video:
+![Demo](https://drive.google.com/file/d/1JpJMOdWNJMcMNcv-53IZ65kI86rhAwy5/view?usp=sharing)
 
 
 
