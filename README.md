@@ -18,7 +18,7 @@ Hệ thống phòng thông minh sử dụng công nghệ IoT được thiết k�
 
 # Flow trong Node Red:
 
-![Node_red flow](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Node_Red_flow.png)
+![Node_red flow](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Node_red_flow.png)
 
  * Sử dụng các Nút truy cập sever của Hivemq đã tạo miễn phí sẵn:
    ![Hivemq](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Hive_mq.png)
