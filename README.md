@@ -24,10 +24,12 @@ Hệ thống phòng thông minh sử dụng công nghệ IoT được thiết k�
    ![Hivemq](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Hive_mq.png)
  * Gồm các nút:
     - 2 nút MQTT in để lấy dữ liệu độ ẩm nhiệt độ từ MQTT và xử lý hiển thị lên dashboard.
-      ![Temp](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Temp.png)
+      
     - 2 nút MQTT out để gửi tín hiệu điều khiển để điều khiển đèn và cửa từ dash board.
-      ![LED](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Led.png)
-    - Và các nút để hiển thị giao diện dash board.      
+    - Và các nút để hiển thị giao diện dash board.
+  
+![Temp](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Temp.png)
+![LED](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Led.png) 
 # Giao diện Dash board:
   * sử dụng Dash_board của Node Red để hiển thị giao diện điều khiển.
   * Các chức năng chính có thể làm như hiển thị trên ảnh:
