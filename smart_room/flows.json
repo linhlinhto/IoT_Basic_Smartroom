@@ -1,0 +1,490 @@
+[
+    {
+        "id": "0d5bd5784f40a50b",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ef9c6aba77310336",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "ca.crt",
+        "keyname": "",
+        "caname": "isrgrootx1.pem",
+        "servername": "25cc75707a0d4b5ba28127938feb1b9b",
+        "verifyservercert": true,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "597eb095fcd154eb",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "25cc75707a0d4b5ba28127938feb1b9b.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "ef9c6aba77310336",
+        "clientid": "Node_Red",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "418aa5815175e884",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "6d9ad8301c1221d0",
+        "type": "ui_tab",
+        "name": "Nhà",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cc3abe0c88a96adc",
+        "type": "ui_spacer",
+        "z": "0d5bd5784f40a50b",
+        "name": "spacer",
+        "group": "ab072c6837e08e41",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "317cb4e547c651a5",
+        "type": "ui_spacer",
+        "z": "0d5bd5784f40a50b",
+        "name": "spacer",
+        "group": "ab072c6837e08e41",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a79dec801718488a",
+        "type": "ui_spacer",
+        "z": "0d5bd5784f40a50b",
+        "name": "spacer",
+        "group": "ab072c6837e08e41",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d7b297b1a36385a4",
+        "type": "ui_spacer",
+        "z": "0d5bd5784f40a50b",
+        "name": "spacer",
+        "group": "ab072c6837e08e41",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d81a6e5092227b61",
+        "type": "ui_spacer",
+        "z": "0d5bd5784f40a50b",
+        "name": "spacer",
+        "group": "ab072c6837e08e41",
+        "order": 10,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "236ae875a37bfbf6",
+        "type": "ui_spacer",
+        "z": "0d5bd5784f40a50b",
+        "name": "spacer",
+        "group": "ab072c6837e08e41",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "b42c3185125702a0",
+        "type": "ui_group",
+        "name": "Phòng 1",
+        "tab": "6d9ad8301c1221d0",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "259149dc2be4c592",
+        "type": "ui_spacer",
+        "z": "0d5bd5784f40a50b",
+        "name": "spacer",
+        "group": "b42c3185125702a0",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "3f1ff07e0b42ae40",
+        "type": "ui_spacer",
+        "z": "0d5bd5784f40a50b",
+        "name": "spacer",
+        "group": "b42c3185125702a0",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "4c14afc17832f89a",
+        "type": "ui_spacer",
+        "z": "0d5bd5784f40a50b",
+        "name": "spacer",
+        "group": "b42c3185125702a0",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "7921d42c7e8530ec",
+        "type": "ui_spacer",
+        "z": "0d5bd5784f40a50b",
+        "name": "spacer",
+        "group": "b42c3185125702a0",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "1f44c8dfcd3a9ce9",
+        "type": "mqtt in",
+        "z": "0d5bd5784f40a50b",
+        "name": "",
+        "topic": "Temp",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "597eb095fcd154eb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 180,
+        "wires": [
+            [
+                "a30c48efcba8727b"
+            ]
+        ]
+    },
+    {
+        "id": "e657e495ab97d4e3",
+        "type": "mqtt out",
+        "z": "0d5bd5784f40a50b",
+        "name": "",
+        "topic": "den",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "597eb095fcd154eb",
+        "x": 470,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "45dd3c8aec1c45d8",
+        "type": "ui_slider",
+        "z": "0d5bd5784f40a50b",
+        "name": "",
+        "label": "Đèn",
+        "tooltip": "",
+        "group": "b42c3185125702a0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "255",
+        "step": 1,
+        "className": "",
+        "x": 250,
+        "y": 420,
+        "wires": [
+            [
+                "e657e495ab97d4e3"
+            ]
+        ]
+    },
+    {
+        "id": "a30c48efcba8727b",
+        "type": "ui_gauge",
+        "z": "0d5bd5784f40a50b",
+        "name": "",
+        "group": "b42c3185125702a0",
+        "order": 1,
+        "width": 10,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Nhiệt độ",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-40",
+        "max": "100",
+        "colors": [
+            "#00b3b0",
+            "#00e61b",
+            "#ca3838"
+        ],
+        "seg1": "20",
+        "seg2": "32",
+        "diff": false,
+        "className": "",
+        "x": 480,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "431c6e20446d43d6",
+        "type": "mqtt in",
+        "z": "0d5bd5784f40a50b",
+        "name": "",
+        "topic": "Hum",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "597eb095fcd154eb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 300,
+        "wires": [
+            [
+                "22e35f1de63e7e1b"
+            ]
+        ]
+    },
+    {
+        "id": "22e35f1de63e7e1b",
+        "type": "ui_gauge",
+        "z": "0d5bd5784f40a50b",
+        "name": "",
+        "group": "b42c3185125702a0",
+        "order": 2,
+        "width": 10,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Độ ẩm",
+        "label": "%",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#00b3b0",
+            "#00e600",
+            "#ca3838"
+        ],
+        "seg1": "20",
+        "seg2": "80",
+        "diff": false,
+        "className": "",
+        "x": 470,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "21b5ede3ddf710eb",
+        "type": "mqtt out",
+        "z": "0d5bd5784f40a50b",
+        "name": "",
+        "topic": "Cua",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "597eb095fcd154eb",
+        "x": 470,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "e8268d4167932e0d",
+        "type": "ui_button",
+        "z": "0d5bd5784f40a50b",
+        "name": "",
+        "group": "b42c3185125702a0",
+        "order": 6,
+        "width": 4,
+        "height": 2,
+        "passthru": false,
+        "label": "Đóng Cửa",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 580,
+        "wires": [
+            [
+                "21b5ede3ddf710eb"
+            ]
+        ]
+    },
+    {
+        "id": "19f0625c6efdac41",
+        "type": "ui_button",
+        "z": "0d5bd5784f40a50b",
+        "name": "",
+        "group": "b42c3185125702a0",
+        "order": 5,
+        "width": 4,
+        "height": 2,
+        "passthru": false,
+        "label": "Mở cửa",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 500,
+        "wires": [
+            [
+                "21b5ede3ddf710eb"
+            ]
+        ]
+    }
+]
