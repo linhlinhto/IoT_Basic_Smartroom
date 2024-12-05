@@ -39,7 +39,10 @@ Hệ thống phòng thông minh sử dụng công nghệ IoT được thiết k�
 ![Dash_board](https://github.com/linhlinhto/IoT_Basic_Smartroom/blob/main/images/Dash_board.png)
 
 # Demo video:
-https://github.com/user-attachments/assets/105eedda-4914-47ea-a9f8-aa787048668b
+https://github.com/user-attachments/assets/498e09e9-cf6b-4d76-a13a-050c0a331d57
+
+
+
 
 
 
